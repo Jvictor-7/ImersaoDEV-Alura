@@ -20,8 +20,41 @@ body {
     flex-direction: column;
     padding: 10px;
     height: 80vh;
-    background-color: rgb(10, 18, 63);
+    background-color: rgba(70, 0, 128, 0.1);
     border-radius: 20px;
+  }
+  .inputs_containerzin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .inputs_containerzin>input{
+    width: 400px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 1em #ccc;
+    background-color: rgb(231, 231, 231);
+  }
+  .inputs_containerzin>input::placeholder{
+    padding-left: 10px;
+    color: grey;
+  }
+  .linha{
+    margin-top: 50px;
+    color: #fff;
+    width: 70%;
+  }
+  .enviar{
+    margin-top: 50px;
+    width: 100px;
+  }
+  #notaFinal{
+    color: #fff;
   }
   
   .page-title {
